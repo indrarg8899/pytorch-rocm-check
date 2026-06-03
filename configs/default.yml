@@ -1,0 +1,21 @@
+# Default configuration for pytorch-rocm-check
+rocm_version: "5.7"
+output_format: "html"
+output_dir: "./reports"
+check_operators: true
+check_models: true
+check_environment: true
+severity_threshold: "info"  # info, warning, error
+report:
+  include_environment: true
+  include_suggestions: true
+  theme: "dark"
+migration:
+  auto_fix_safe: true
+  auto_fix_warning: false
+  preserve_comments: true
+model_database:
+  custom_path: null
+  update_on_check: false
+known_issues:
+  check_on_run: true
