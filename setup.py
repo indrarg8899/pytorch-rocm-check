@@ -5,7 +5,7 @@ build-backend = "setuptools.backends._legacy:_Backend"
 [project]
 name = "pytorch-rocm-check"
 version = "1.0.0"
-description = "PyTorch ROCm compatibility checker and CUDA→ROCm migration tool"
+description = "PyTorch ROCm compatibility checker and CUDA to ROCm migration tool"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
